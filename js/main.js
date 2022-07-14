@@ -50,7 +50,7 @@ elForm.addEventListener('submit', function (evt) {
 
 	async function func() {
 		const response = await fetch(
-			`http://www.omdbapi.com/?apikey=6e537db6&s=${elInput.value}`,
+			`https://www.omdbapi.com/?apikey=6e537db6&s=${elInput.value.trim()}`,
 		);
 		const data = await response.json();
 		console.log(data);
