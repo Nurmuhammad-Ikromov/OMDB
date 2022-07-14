@@ -1,0 +1,99 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #161D25;
+}
+
+.container {
+    max-width: 1240px;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.site-title {
+    font-size: 48px;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+.js-list {
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.js-input{
+    margin: 0 auto;
+   width: 50%;
+
+}
+
+.js-found{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.js-item {
+    display: flex;
+    width: 582px;
+    /* border: 1px solid transparent; */
+    border-radius: 8px;
+    margin-bottom: 50px;
+    background-color: #304156;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(149, 121, 121, 0.12) 0px -12px 30px, rgba(158, 137, 137, 0.12) 0px 4px 6px, rgba(87, 80, 80, 0.17) 0px 12px 13px, rgba(63, 57, 57, 0.09) 0px -3px 5px;
+}
+
+.js-id {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.js-item-name {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 30px;
+    color: #f00;
+    text-transform: uppercase;
+}
+
+
+
+.js-time {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.js-img {
+    width: 300px;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.js-box {
+    width: 280px;
+    padding: 10px;
+}
+
+.js-error{
+    color: #f00;
+}
+
+.js-true{
+    color: #0f0;
+}
+
+
+
+
+
+
